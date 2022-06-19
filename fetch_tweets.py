@@ -103,7 +103,7 @@ def create_data( new_search, date_since, noOfTweet):
   tw_list = pd.DataFrame(data, columns=column)
   tw_list = tw_list.set_index('TimeStamp')
 
-  tw_list.to_csv('tweets.csv', encoding ='latin1')
+  tw_list.to_csv('tweets.csv')
 
 
 # keyword = "would putin"
